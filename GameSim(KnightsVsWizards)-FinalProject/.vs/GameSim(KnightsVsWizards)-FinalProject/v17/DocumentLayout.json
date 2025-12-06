@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pelig\\source\\repos\\GameSim(KnightsVsWizards)-FinalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\pelig\\OneDrive\\Documentos\\GitHub\\Game-Sim-Final_Project\\GameSim(KnightsVsWizards)-FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{476A70AA-E05E-4091-8D2B-5A99D8127BCA}|GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.vcxproj|C:\\Users\\pelig\\source\\repos\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{476A70AA-E05E-4091-8D2B-5A99D8127BCA}|GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.vcxproj|C:\\Users\\pelig\\OneDrive\\Documentos\\GitHub\\Game-Sim-Final_Project\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{476A70AA-E05E-4091-8D2B-5A99D8127BCA}|GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.vcxproj|solutionrelative:GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameSim(KnightsVsWizards)-FinalProject.cpp",
-              "DocumentMoniker": "C:\\Users\\pelig\\source\\repos\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
+              "DocumentMoniker": "C:\\Users\\pelig\\OneDrive\\Documentos\\GitHub\\Game-Sim-Final_Project\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
               "RelativeDocumentMoniker": "GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
-              "ToolTip": "C:\\Users\\pelig\\source\\repos\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
+              "ToolTip": "C:\\Users\\pelig\\OneDrive\\Documentos\\GitHub\\Game-Sim-Final_Project\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
               "RelativeToolTip": "GameSim(KnightsVsWizards)-FinalProject\\GameSim(KnightsVsWizards)-FinalProject.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-04T19:54:12.375Z",
               "EditorCaption": ""
