@@ -60,11 +60,81 @@ bool flee(Character& player)
     }
 }
 
-
-
-// THis is a test for git
-int main()
+void showStats(const Character& player, const Character& enemy)/* This'll be to display the stats after each round and beginning. Using "&" we pass by reference,
+ensuring that the "player" and "enemy" aren't changed.*/
 {
+    cout << "___STATUS___" << endl << endl; // I did this in order to make it look organized 
+    cout << player.type << "HP: " << player.health << "/" << player.maxHealth << endl;// This prints the "character" your using and its current hp vs its max health.'
+    cout << enemy.type << "HP: " << enemy.health << "/" << enemy.maxHealth << endl;// This does the same, however its for your enemy.
+    cout << "____________" << endl;
+}
+
+int main()// The main part of the code!!!!!!!!!!!!
+{
+    srand(static_cast<unsigned int>(time(0)));
+    Character player, enemy;
+
+    cout << "Choose your character (Knight/Wizard): ";// Iconic
+    string choice;// We make it type string since we expect the user to type the actual word.
+    cin >> choice;// This just takes it in.
+
+    if (choice == "Knight" || choice == "knight")
+    {
+        player = { "Knight ", 120, 120, 15 };
+        enemy = { "Wizard", 80, 80, 25 };
+    }
+    else
+    {
+        player = { "Wizard", 80, 80, 25 };
+        enemy = { "Knight", 120, 120, 15 };
+    }
     
+    cout << "Battle begins: " << player.type << " vs " << enemy.type << "!" << endl;
+    
+    while (player.health > 0 && enemy.health > 0)
+    {
+        showStats(player, enemy);
+
+        cout << endl << "Choose your action: " << endl << "1.Attack" << endl << "2.Heal " << endl << "3.Flee" << endl;
+        int action;
+        cin >> action;
+        system("cls");
+
+        if (action == 1)
+        {
+            attack(player, enemy);
+        }
+        else if(action ==2)
+        {
+            heal(player);
+        }
+        else if (action == 3)
+        {
+            if (flee(player))
+                break;
+        }
+        else
+        {
+            cout << "Invalid option. Try Again!" << endl;
+        }
+
+        if (enemy.health > 0)
+        {
+            cout << "Enemy's turn..." << endl;
+            int enemyAction = rand() % 2;// 0 = attack, 1 = heal
+            if (enemyAction == 0) attack(enemy, player);
+            else heal(enemy);
+
+        }
+    }
+
+    if (player.health <= 0)
+        cout << "You were defeated by the " << enemy.type << "!";
+    else if (enemy.health <= 0)
+        cout << " Victory! You defeated the " << enemy.type << "!";
+    else
+        cout << " The battle ended ";
+
+    return 0;
 }
 
